@@ -1,0 +1,357 @@
+The target system is: Emscripten - 1 - x86
+The host system is: Darwin - 16.1.0 - x86_64
+Performing C++ SOURCE FILE Test DRACO_HAVE_CXX_FLAG succeeded with the following output:
+Change Dir: /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ca70c/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ca70c.dir/build.make CMakeFiles/cmTC_ca70c.dir/build
+Building CXX object CMakeFiles/cmTC_ca70c.dir/src.cxx.o
+/Users/cfarmer/yo/emsdk/emscripten/incoming/em++    -DDRACO_HAVE_CXX_FLAG -s ERROR_ON_UNDEFINED_SYMBOLS=1   -std=c++11 -o CMakeFiles/cmTC_ca70c.dir/src.cxx.o -c /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ca70c.js
+/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca70c.dir/link.txt --verbose=1
+/Users/cfarmer/yo/emsdk/emscripten/incoming/em++   -DDRACO_HAVE_CXX_FLAG -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_ca70c.dir/objects1.rsp  -o cmTC_ca70c.js 
+INFO:root:generating system library: libc.bc... (this will be cached in "/Users/cfarmer/.emscripten_cache/asmjs/libc.bc" for subsequent builds)
+INFO:root: - ok
+INFO:root:generating system library: dlmalloc.bc... (this will be cached in "/Users/cfarmer/.emscripten_cache/asmjs/dlmalloc.bc" for subsequent builds)
+INFO:root: - ok
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8a9a6/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8a9a6.dir/build.make CMakeFiles/cmTC_8a9a6.dir/build
+Building C object CMakeFiles/cmTC_8a9a6.dir/src.c.o
+/Users/cfarmer/yo/emsdk/emscripten/incoming/emcc   -DC_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1   -s ALLOW_MEMORY_GROWTH=1 -o CMakeFiles/cmTC_8a9a6.dir/src.c.o   -c /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8a9a6.js
+/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a9a6.dir/link.txt --verbose=1
+/Users/cfarmer/yo/emsdk/emscripten/incoming/emcc  -DC_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_8a9a6.dir/objects1.rsp  -o cmTC_8a9a6.js 
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_21013/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_21013.dir/build.make CMakeFiles/cmTC_21013.dir/build
+Building CXX object CMakeFiles/cmTC_21013.dir/src.cxx.o
+/Users/cfarmer/yo/emsdk/emscripten/incoming/em++    -std=c++11  -DDRACO_POINT_CLOUD_COMPRESSION_SUPPORTED -DDRACO_MESH_COMPRESSION_SUPPORTED -DDRACO_STANDARD_EDGEBREAKER_SUPPORTED -DDRACO_PREDICTIVE_EDGEBREAKER_SUPPORTED -DCXX_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1   -s ALLOW_MEMORY_GROWTH=1 -o CMakeFiles/cmTC_21013.dir/src.cxx.o -c /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_21013.js
+/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21013.dir/link.txt --verbose=1
+/Users/cfarmer/yo/emsdk/emscripten/incoming/em++  -std=c++11  -DDRACO_POINT_CLOUD_COMPRESSION_SUPPORTED -DDRACO_MESH_COMPRESSION_SUPPORTED -DDRACO_STANDARD_EDGEBREAKER_SUPPORTED -DDRACO_PREDICTIVE_EDGEBREAKER_SUPPORTED -DCXX_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_21013.dir/objects1.rsp  -o cmTC_21013.js 
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_33696/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_33696.dir/build.make CMakeFiles/cmTC_33696.dir/build
+Building C object CMakeFiles/cmTC_33696.dir/src.c.o
+/Users/cfarmer/yo/emsdk/emscripten/incoming/emcc   -s ALLOW_MEMORY_GROWTH=1 -DC_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1   --memory-init-file 0 -o CMakeFiles/cmTC_33696.dir/src.c.o   -c /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_33696.js
+/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33696.dir/link.txt --verbose=1
+/Users/cfarmer/yo/emsdk/emscripten/incoming/emcc  -s ALLOW_MEMORY_GROWTH=1 -DC_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_33696.dir/objects1.rsp  -o cmTC_33696.js 
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c19c3/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c19c3.dir/build.make CMakeFiles/cmTC_c19c3.dir/build
+Building CXX object CMakeFiles/cmTC_c19c3.dir/src.cxx.o
+/Users/cfarmer/yo/emsdk/emscripten/incoming/em++    -std=c++11  -DDRACO_POINT_CLOUD_COMPRESSION_SUPPORTED -DDRACO_MESH_COMPRESSION_SUPPORTED -DDRACO_STANDARD_EDGEBREAKER_SUPPORTED -DDRACO_PREDICTIVE_EDGEBREAKER_SUPPORTED -s ALLOW_MEMORY_GROWTH=1 -DCXX_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1   --memory-init-file 0 -o CMakeFiles/cmTC_c19c3.dir/src.cxx.o -c /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c19c3.js
+/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c19c3.dir/link.txt --verbose=1
+/Users/cfarmer/yo/emsdk/emscripten/incoming/em++  -std=c++11  -DDRACO_POINT_CLOUD_COMPRESSION_SUPPORTED -DDRACO_MESH_COMPRESSION_SUPPORTED -DDRACO_STANDARD_EDGEBREAKER_SUPPORTED -DDRACO_PREDICTIVE_EDGEBREAKER_SUPPORTED -s ALLOW_MEMORY_GROWTH=1 -DCXX_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_c19c3.dir/objects1.rsp  -o cmTC_c19c3.js 
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fe751/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_fe751.dir/build.make CMakeFiles/cmTC_fe751.dir/build
+Building C object CMakeFiles/cmTC_fe751.dir/src.c.o
+/Users/cfarmer/yo/emsdk/emscripten/incoming/emcc   -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -DC_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1   -fno-omit-frame-pointer -o CMakeFiles/cmTC_fe751.dir/src.c.o   -c /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_fe751.js
+/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe751.dir/link.txt --verbose=1
+/Users/cfarmer/yo/emsdk/emscripten/incoming/emcc  -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -DC_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_fe751.dir/objects1.rsp  -o cmTC_fe751.js 
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3ed67/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3ed67.dir/build.make CMakeFiles/cmTC_3ed67.dir/build
+Building CXX object CMakeFiles/cmTC_3ed67.dir/src.cxx.o
+/Users/cfarmer/yo/emsdk/emscripten/incoming/em++    -std=c++11  -DDRACO_POINT_CLOUD_COMPRESSION_SUPPORTED -DDRACO_MESH_COMPRESSION_SUPPORTED -DDRACO_STANDARD_EDGEBREAKER_SUPPORTED -DDRACO_PREDICTIVE_EDGEBREAKER_SUPPORTED -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -DCXX_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1   -fno-omit-frame-pointer -o CMakeFiles/cmTC_3ed67.dir/src.cxx.o -c /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3ed67.js
+/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ed67.dir/link.txt --verbose=1
+/Users/cfarmer/yo/emsdk/emscripten/incoming/em++  -std=c++11  -DDRACO_POINT_CLOUD_COMPRESSION_SUPPORTED -DDRACO_MESH_COMPRESSION_SUPPORTED -DDRACO_STANDARD_EDGEBREAKER_SUPPORTED -DDRACO_PREDICTIVE_EDGEBREAKER_SUPPORTED -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -DCXX_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_3ed67.dir/objects1.rsp  -o cmTC_3ed67.js 
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_969bd/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_969bd.dir/build.make CMakeFiles/cmTC_969bd.dir/build
+Building C object CMakeFiles/cmTC_969bd.dir/src.c.o
+/Users/cfarmer/yo/emsdk/emscripten/incoming/emcc   -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -DC_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1   -s MODULARIZE=1 -o CMakeFiles/cmTC_969bd.dir/src.c.o   -c /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_969bd.js
+/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_969bd.dir/link.txt --verbose=1
+/Users/cfarmer/yo/emsdk/emscripten/incoming/emcc  -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -DC_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_969bd.dir/objects1.rsp  -o cmTC_969bd.js 
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_03685/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_03685.dir/build.make CMakeFiles/cmTC_03685.dir/build
+Building CXX object CMakeFiles/cmTC_03685.dir/src.cxx.o
+/Users/cfarmer/yo/emsdk/emscripten/incoming/em++    -std=c++11  -DDRACO_POINT_CLOUD_COMPRESSION_SUPPORTED -DDRACO_MESH_COMPRESSION_SUPPORTED -DDRACO_STANDARD_EDGEBREAKER_SUPPORTED -DDRACO_PREDICTIVE_EDGEBREAKER_SUPPORTED -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -DCXX_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1   -s MODULARIZE=1 -o CMakeFiles/cmTC_03685.dir/src.cxx.o -c /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_03685.js
+/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03685.dir/link.txt --verbose=1
+/Users/cfarmer/yo/emsdk/emscripten/incoming/em++  -std=c++11  -DDRACO_POINT_CLOUD_COMPRESSION_SUPPORTED -DDRACO_MESH_COMPRESSION_SUPPORTED -DDRACO_STANDARD_EDGEBREAKER_SUPPORTED -DDRACO_PREDICTIVE_EDGEBREAKER_SUPPORTED -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -DCXX_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_03685.dir/objects1.rsp  -o cmTC_03685.js 
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fbd19/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_fbd19.dir/build.make CMakeFiles/cmTC_fbd19.dir/build
+Building C object CMakeFiles/cmTC_fbd19.dir/src.c.o
+/Users/cfarmer/yo/emsdk/emscripten/incoming/emcc   -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -s MODULARIZE=1 -DC_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1   -s EXPORT_NAME="'DracoModule'" -o CMakeFiles/cmTC_fbd19.dir/src.c.o   -c /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_fbd19.js
+/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbd19.dir/link.txt --verbose=1
+/Users/cfarmer/yo/emsdk/emscripten/incoming/emcc  -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -s MODULARIZE=1 -DC_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_fbd19.dir/objects1.rsp  -o cmTC_fbd19.js 
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f4937/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f4937.dir/build.make CMakeFiles/cmTC_f4937.dir/build
+Building CXX object CMakeFiles/cmTC_f4937.dir/src.cxx.o
+/Users/cfarmer/yo/emsdk/emscripten/incoming/em++    -std=c++11  -DDRACO_POINT_CLOUD_COMPRESSION_SUPPORTED -DDRACO_MESH_COMPRESSION_SUPPORTED -DDRACO_STANDARD_EDGEBREAKER_SUPPORTED -DDRACO_PREDICTIVE_EDGEBREAKER_SUPPORTED -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -s MODULARIZE=1 -DCXX_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1   -s EXPORT_NAME="'DracoModule'" -o CMakeFiles/cmTC_f4937.dir/src.cxx.o -c /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f4937.js
+/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4937.dir/link.txt --verbose=1
+/Users/cfarmer/yo/emsdk/emscripten/incoming/em++  -std=c++11  -DDRACO_POINT_CLOUD_COMPRESSION_SUPPORTED -DDRACO_MESH_COMPRESSION_SUPPORTED -DDRACO_STANDARD_EDGEBREAKER_SUPPORTED -DDRACO_PREDICTIVE_EDGEBREAKER_SUPPORTED -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -s MODULARIZE=1 -DCXX_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_f4937.dir/objects1.rsp  -o cmTC_f4937.js 
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0253f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0253f.dir/build.make CMakeFiles/cmTC_0253f.dir/build
+Building C object CMakeFiles/cmTC_0253f.dir/src.c.o
+/Users/cfarmer/yo/emsdk/emscripten/incoming/emcc   -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -s MODULARIZE=1 -s EXPORT_NAME="'DracoModule'" -DC_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1   -s NO_FILESYSTEM=1 -o CMakeFiles/cmTC_0253f.dir/src.c.o   -c /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0253f.js
+/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0253f.dir/link.txt --verbose=1
+/Users/cfarmer/yo/emsdk/emscripten/incoming/emcc  -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -s MODULARIZE=1 -s EXPORT_NAME="'DracoModule'" -DC_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_0253f.dir/objects1.rsp  -o cmTC_0253f.js 
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ce8df/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ce8df.dir/build.make CMakeFiles/cmTC_ce8df.dir/build
+Building CXX object CMakeFiles/cmTC_ce8df.dir/src.cxx.o
+/Users/cfarmer/yo/emsdk/emscripten/incoming/em++    -std=c++11  -DDRACO_POINT_CLOUD_COMPRESSION_SUPPORTED -DDRACO_MESH_COMPRESSION_SUPPORTED -DDRACO_STANDARD_EDGEBREAKER_SUPPORTED -DDRACO_PREDICTIVE_EDGEBREAKER_SUPPORTED -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -s MODULARIZE=1 -s EXPORT_NAME="'DracoModule'" -DCXX_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1   -s NO_FILESYSTEM=1 -o CMakeFiles/cmTC_ce8df.dir/src.cxx.o -c /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ce8df.js
+/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce8df.dir/link.txt --verbose=1
+/Users/cfarmer/yo/emsdk/emscripten/incoming/em++  -std=c++11  -DDRACO_POINT_CLOUD_COMPRESSION_SUPPORTED -DDRACO_MESH_COMPRESSION_SUPPORTED -DDRACO_STANDARD_EDGEBREAKER_SUPPORTED -DDRACO_PREDICTIVE_EDGEBREAKER_SUPPORTED -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -s MODULARIZE=1 -s EXPORT_NAME="'DracoModule'" -DCXX_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_ce8df.dir/objects1.rsp  -o cmTC_ce8df.js 
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_64625/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_64625.dir/build.make CMakeFiles/cmTC_64625.dir/build
+Building C object CMakeFiles/cmTC_64625.dir/src.c.o
+/Users/cfarmer/yo/emsdk/emscripten/incoming/emcc   -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -s MODULARIZE=1 -s EXPORT_NAME="'DracoModule'" -s NO_FILESYSTEM=1 -DC_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1   -s ELIMINATE_DUPLICATE_FUNCTIONS=1 -o CMakeFiles/cmTC_64625.dir/src.c.o   -c /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_64625.js
+/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64625.dir/link.txt --verbose=1
+/Users/cfarmer/yo/emsdk/emscripten/incoming/emcc  -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -s MODULARIZE=1 -s EXPORT_NAME="'DracoModule'" -s NO_FILESYSTEM=1 -DC_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_64625.dir/objects1.rsp  -o cmTC_64625.js 
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_331b7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_331b7.dir/build.make CMakeFiles/cmTC_331b7.dir/build
+Building CXX object CMakeFiles/cmTC_331b7.dir/src.cxx.o
+/Users/cfarmer/yo/emsdk/emscripten/incoming/em++    -std=c++11  -DDRACO_POINT_CLOUD_COMPRESSION_SUPPORTED -DDRACO_MESH_COMPRESSION_SUPPORTED -DDRACO_STANDARD_EDGEBREAKER_SUPPORTED -DDRACO_PREDICTIVE_EDGEBREAKER_SUPPORTED -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -s MODULARIZE=1 -s EXPORT_NAME="'DracoModule'" -s NO_FILESYSTEM=1 -DCXX_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1   -s ELIMINATE_DUPLICATE_FUNCTIONS=1 -o CMakeFiles/cmTC_331b7.dir/src.cxx.o -c /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_331b7.js
+/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_331b7.dir/link.txt --verbose=1
+/Users/cfarmer/yo/emsdk/emscripten/incoming/em++  -std=c++11  -DDRACO_POINT_CLOUD_COMPRESSION_SUPPORTED -DDRACO_MESH_COMPRESSION_SUPPORTED -DDRACO_STANDARD_EDGEBREAKER_SUPPORTED -DDRACO_PREDICTIVE_EDGEBREAKER_SUPPORTED -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -s MODULARIZE=1 -s EXPORT_NAME="'DracoModule'" -s NO_FILESYSTEM=1 -DCXX_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_331b7.dir/objects1.rsp  -o cmTC_331b7.js 
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_04c55/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_04c55.dir/build.make CMakeFiles/cmTC_04c55.dir/build
+Building C object CMakeFiles/cmTC_04c55.dir/src.c.o
+/Users/cfarmer/yo/emsdk/emscripten/incoming/emcc   -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -s MODULARIZE=1 -s EXPORT_NAME="'DracoModule'" -s NO_FILESYSTEM=1 -s ELIMINATE_DUPLICATE_FUNCTIONS=1 -DC_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1   -s EXPORTED_RUNTIME_METHODS=[] -o CMakeFiles/cmTC_04c55.dir/src.c.o   -c /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_04c55.js
+/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04c55.dir/link.txt --verbose=1
+/Users/cfarmer/yo/emsdk/emscripten/incoming/emcc  -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -s MODULARIZE=1 -s EXPORT_NAME="'DracoModule'" -s NO_FILESYSTEM=1 -s ELIMINATE_DUPLICATE_FUNCTIONS=1 -DC_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_04c55.dir/objects1.rsp  -o cmTC_04c55.js 
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c3a63/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c3a63.dir/build.make CMakeFiles/cmTC_c3a63.dir/build
+Building CXX object CMakeFiles/cmTC_c3a63.dir/src.cxx.o
+/Users/cfarmer/yo/emsdk/emscripten/incoming/em++    -std=c++11  -DDRACO_POINT_CLOUD_COMPRESSION_SUPPORTED -DDRACO_MESH_COMPRESSION_SUPPORTED -DDRACO_STANDARD_EDGEBREAKER_SUPPORTED -DDRACO_PREDICTIVE_EDGEBREAKER_SUPPORTED -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -s MODULARIZE=1 -s EXPORT_NAME="'DracoModule'" -s NO_FILESYSTEM=1 -s ELIMINATE_DUPLICATE_FUNCTIONS=1 -DCXX_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1   -s EXPORTED_RUNTIME_METHODS=[] -o CMakeFiles/cmTC_c3a63.dir/src.cxx.o -c /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c3a63.js
+/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3a63.dir/link.txt --verbose=1
+/Users/cfarmer/yo/emsdk/emscripten/incoming/em++  -std=c++11  -DDRACO_POINT_CLOUD_COMPRESSION_SUPPORTED -DDRACO_MESH_COMPRESSION_SUPPORTED -DDRACO_STANDARD_EDGEBREAKER_SUPPORTED -DDRACO_PREDICTIVE_EDGEBREAKER_SUPPORTED -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -s MODULARIZE=1 -s EXPORT_NAME="'DracoModule'" -s NO_FILESYSTEM=1 -s ELIMINATE_DUPLICATE_FUNCTIONS=1 -DCXX_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_c3a63.dir/objects1.rsp  -o cmTC_c3a63.js 
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d4c3e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d4c3e.dir/build.make CMakeFiles/cmTC_d4c3e.dir/build
+Building C object CMakeFiles/cmTC_d4c3e.dir/src.c.o
+/Users/cfarmer/yo/emsdk/emscripten/incoming/emcc   -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -s MODULARIZE=1 -s EXPORT_NAME="'DracoModule'" -s NO_FILESYSTEM=1 -s ELIMINATE_DUPLICATE_FUNCTIONS=1 -s EXPORTED_RUNTIME_METHODS=[] -DC_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1   -s PRECISE_F32=1 -o CMakeFiles/cmTC_d4c3e.dir/src.c.o   -c /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d4c3e.js
+/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4c3e.dir/link.txt --verbose=1
+/Users/cfarmer/yo/emsdk/emscripten/incoming/emcc  -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -s MODULARIZE=1 -s EXPORT_NAME="'DracoModule'" -s NO_FILESYSTEM=1 -s ELIMINATE_DUPLICATE_FUNCTIONS=1 -s EXPORTED_RUNTIME_METHODS=[] -DC_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_d4c3e.dir/objects1.rsp  -o cmTC_d4c3e.js 
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3fd48/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3fd48.dir/build.make CMakeFiles/cmTC_3fd48.dir/build
+Building CXX object CMakeFiles/cmTC_3fd48.dir/src.cxx.o
+/Users/cfarmer/yo/emsdk/emscripten/incoming/em++    -std=c++11  -DDRACO_POINT_CLOUD_COMPRESSION_SUPPORTED -DDRACO_MESH_COMPRESSION_SUPPORTED -DDRACO_STANDARD_EDGEBREAKER_SUPPORTED -DDRACO_PREDICTIVE_EDGEBREAKER_SUPPORTED -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -s MODULARIZE=1 -s EXPORT_NAME="'DracoModule'" -s NO_FILESYSTEM=1 -s ELIMINATE_DUPLICATE_FUNCTIONS=1 -s EXPORTED_RUNTIME_METHODS=[] -DCXX_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1   -s PRECISE_F32=1 -o CMakeFiles/cmTC_3fd48.dir/src.cxx.o -c /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3fd48.js
+/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3fd48.dir/link.txt --verbose=1
+/Users/cfarmer/yo/emsdk/emscripten/incoming/em++  -std=c++11  -DDRACO_POINT_CLOUD_COMPRESSION_SUPPORTED -DDRACO_MESH_COMPRESSION_SUPPORTED -DDRACO_STANDARD_EDGEBREAKER_SUPPORTED -DDRACO_PREDICTIVE_EDGEBREAKER_SUPPORTED -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -s MODULARIZE=1 -s EXPORT_NAME="'DracoModule'" -s NO_FILESYSTEM=1 -s ELIMINATE_DUPLICATE_FUNCTIONS=1 -s EXPORTED_RUNTIME_METHODS=[] -DCXX_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_3fd48.dir/objects1.rsp  -o cmTC_3fd48.js 
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ea8fe/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ea8fe.dir/build.make CMakeFiles/cmTC_ea8fe.dir/build
+Building C object CMakeFiles/cmTC_ea8fe.dir/src.c.o
+/Users/cfarmer/yo/emsdk/emscripten/incoming/emcc   -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -s MODULARIZE=1 -s EXPORT_NAME="'DracoModule'" -s NO_FILESYSTEM=1 -s ELIMINATE_DUPLICATE_FUNCTIONS=1 -s EXPORTED_RUNTIME_METHODS=[] -s PRECISE_F32=1 -DC_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1   -s WASM=1 -o CMakeFiles/cmTC_ea8fe.dir/src.c.o   -c /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ea8fe.js
+/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea8fe.dir/link.txt --verbose=1
+/Users/cfarmer/yo/emsdk/emscripten/incoming/emcc  -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -s MODULARIZE=1 -s EXPORT_NAME="'DracoModule'" -s NO_FILESYSTEM=1 -s ELIMINATE_DUPLICATE_FUNCTIONS=1 -s EXPORTED_RUNTIME_METHODS=[] -s PRECISE_F32=1 -DC_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_ea8fe.dir/objects1.rsp  -o cmTC_ea8fe.js 
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_04106/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_04106.dir/build.make CMakeFiles/cmTC_04106.dir/build
+Building CXX object CMakeFiles/cmTC_04106.dir/src.cxx.o
+/Users/cfarmer/yo/emsdk/emscripten/incoming/em++    -std=c++11  -DDRACO_POINT_CLOUD_COMPRESSION_SUPPORTED -DDRACO_MESH_COMPRESSION_SUPPORTED -DDRACO_STANDARD_EDGEBREAKER_SUPPORTED -DDRACO_PREDICTIVE_EDGEBREAKER_SUPPORTED -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -s MODULARIZE=1 -s EXPORT_NAME="'DracoModule'" -s NO_FILESYSTEM=1 -s ELIMINATE_DUPLICATE_FUNCTIONS=1 -s EXPORTED_RUNTIME_METHODS=[] -s PRECISE_F32=1 -DCXX_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1   -s WASM=1 -o CMakeFiles/cmTC_04106.dir/src.cxx.o -c /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_04106.js
+/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04106.dir/link.txt --verbose=1
+/Users/cfarmer/yo/emsdk/emscripten/incoming/em++  -std=c++11  -DDRACO_POINT_CLOUD_COMPRESSION_SUPPORTED -DDRACO_MESH_COMPRESSION_SUPPORTED -DDRACO_STANDARD_EDGEBREAKER_SUPPORTED -DDRACO_PREDICTIVE_EDGEBREAKER_SUPPORTED -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -s MODULARIZE=1 -s EXPORT_NAME="'DracoModule'" -s NO_FILESYSTEM=1 -s ELIMINATE_DUPLICATE_FUNCTIONS=1 -s EXPORTED_RUNTIME_METHODS=[] -s PRECISE_F32=1 -DCXX_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_04106.dir/objects1.rsp  -o cmTC_04106.js 
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7f3b0/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7f3b0.dir/build.make CMakeFiles/cmTC_7f3b0.dir/build
+Building C object CMakeFiles/cmTC_7f3b0.dir/src.c.o
+/Users/cfarmer/yo/emsdk/emscripten/incoming/emcc   -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -s MODULARIZE=1 -s EXPORT_NAME="'DracoModule'" -s NO_FILESYSTEM=1 -s ELIMINATE_DUPLICATE_FUNCTIONS=1 -s EXPORTED_RUNTIME_METHODS=[] -s PRECISE_F32=1 -s WASM=1 -DC_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1   -s BINARYEN_IMPRECISE=1 -o CMakeFiles/cmTC_7f3b0.dir/src.c.o   -c /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp/src.c
+WARNING:root:Assigning a non-existent settings attribute "BINARYEN_IMPRECISE"
+WARNING:root: - did you mean one of BINARYEN_PASSES, BINARYEN_METHOD, BINARYEN_MEM_MAX?
+WARNING:root: - perhaps a typo in emcc's  -s X=Y  notation?
+WARNING:root: - (see src/settings.js for valid values)
+Linking C executable cmTC_7f3b0.js
+/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f3b0.dir/link.txt --verbose=1
+/Users/cfarmer/yo/emsdk/emscripten/incoming/emcc  -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -s MODULARIZE=1 -s EXPORT_NAME="'DracoModule'" -s NO_FILESYSTEM=1 -s ELIMINATE_DUPLICATE_FUNCTIONS=1 -s EXPORTED_RUNTIME_METHODS=[] -s PRECISE_F32=1 -s WASM=1 -DC_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_7f3b0.dir/objects1.rsp  -o cmTC_7f3b0.js 
+INFO:root:generating system library: wasm-libc.bc... (this will be cached in "/Users/cfarmer/.emscripten_cache/asmjs/wasm-libc.bc" for subsequent builds)
+INFO:root: - ok
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_44bc6/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_44bc6.dir/build.make CMakeFiles/cmTC_44bc6.dir/build
+Building CXX object CMakeFiles/cmTC_44bc6.dir/src.cxx.o
+/Users/cfarmer/yo/emsdk/emscripten/incoming/em++    -std=c++11  -DDRACO_POINT_CLOUD_COMPRESSION_SUPPORTED -DDRACO_MESH_COMPRESSION_SUPPORTED -DDRACO_STANDARD_EDGEBREAKER_SUPPORTED -DDRACO_PREDICTIVE_EDGEBREAKER_SUPPORTED -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -s MODULARIZE=1 -s EXPORT_NAME="'DracoModule'" -s NO_FILESYSTEM=1 -s ELIMINATE_DUPLICATE_FUNCTIONS=1 -s EXPORTED_RUNTIME_METHODS=[] -s PRECISE_F32=1 -s WASM=1 -DCXX_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1   -s BINARYEN_IMPRECISE=1 -o CMakeFiles/cmTC_44bc6.dir/src.cxx.o -c /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp/src.cxx
+WARNING:root:Assigning a non-existent settings attribute "BINARYEN_IMPRECISE"
+WARNING:root: - did you mean one of BINARYEN_PASSES, BINARYEN_METHOD, BINARYEN_MEM_MAX?
+WARNING:root: - perhaps a typo in emcc's  -s X=Y  notation?
+WARNING:root: - (see src/settings.js for valid values)
+Linking CXX executable cmTC_44bc6.js
+/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44bc6.dir/link.txt --verbose=1
+/Users/cfarmer/yo/emsdk/emscripten/incoming/em++  -std=c++11  -DDRACO_POINT_CLOUD_COMPRESSION_SUPPORTED -DDRACO_MESH_COMPRESSION_SUPPORTED -DDRACO_STANDARD_EDGEBREAKER_SUPPORTED -DDRACO_PREDICTIVE_EDGEBREAKER_SUPPORTED -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -s MODULARIZE=1 -s EXPORT_NAME="'DracoModule'" -s NO_FILESYSTEM=1 -s ELIMINATE_DUPLICATE_FUNCTIONS=1 -s EXPORTED_RUNTIME_METHODS=[] -s PRECISE_F32=1 -s WASM=1 -DCXX_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_44bc6.dir/objects1.rsp  -o cmTC_44bc6.js 
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a601b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a601b.dir/build.make CMakeFiles/cmTC_a601b.dir/build
+Building C object CMakeFiles/cmTC_a601b.dir/src.c.o
+/Users/cfarmer/yo/emsdk/emscripten/incoming/emcc   -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -s MODULARIZE=1 -s EXPORT_NAME="'DracoModule'" -s NO_FILESYSTEM=1 -s ELIMINATE_DUPLICATE_FUNCTIONS=1 -s EXPORTED_RUNTIME_METHODS=[] -s PRECISE_F32=1 -s WASM=1 -s BINARYEN_IMPRECISE=1 -DC_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1   -O3 -o CMakeFiles/cmTC_a601b.dir/src.c.o   -c /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp/src.c
+WARNING:root:Assigning a non-existent settings attribute "BINARYEN_IMPRECISE"
+WARNING:root: - did you mean one of BINARYEN_PASSES, BINARYEN_METHOD, BINARYEN_MEM_MAX?
+WARNING:root: - perhaps a typo in emcc's  -s X=Y  notation?
+WARNING:root: - (see src/settings.js for valid values)
+Linking C executable cmTC_a601b.js
+/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a601b.dir/link.txt --verbose=1
+/Users/cfarmer/yo/emsdk/emscripten/incoming/emcc  -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -s MODULARIZE=1 -s EXPORT_NAME="'DracoModule'" -s NO_FILESYSTEM=1 -s ELIMINATE_DUPLICATE_FUNCTIONS=1 -s EXPORTED_RUNTIME_METHODS=[] -s PRECISE_F32=1 -s WASM=1 -s BINARYEN_IMPRECISE=1 -DC_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_a601b.dir/objects1.rsp  -o cmTC_a601b.js 
+WARNING:root:Assigning a non-existent settings attribute "BINARYEN_IMPRECISE"
+WARNING:root: - did you mean one of BINARYEN_PASSES, BINARYEN_METHOD, BINARYEN_MEM_MAX?
+WARNING:root: - perhaps a typo in emcc's  -s X=Y  notation?
+WARNING:root: - (see src/settings.js for valid values)
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_90d6b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_90d6b.dir/build.make CMakeFiles/cmTC_90d6b.dir/build
+Building CXX object CMakeFiles/cmTC_90d6b.dir/src.cxx.o
+/Users/cfarmer/yo/emsdk/emscripten/incoming/em++    -std=c++11  -DDRACO_POINT_CLOUD_COMPRESSION_SUPPORTED -DDRACO_MESH_COMPRESSION_SUPPORTED -DDRACO_STANDARD_EDGEBREAKER_SUPPORTED -DDRACO_PREDICTIVE_EDGEBREAKER_SUPPORTED -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -s MODULARIZE=1 -s EXPORT_NAME="'DracoModule'" -s NO_FILESYSTEM=1 -s ELIMINATE_DUPLICATE_FUNCTIONS=1 -s EXPORTED_RUNTIME_METHODS=[] -s PRECISE_F32=1 -s WASM=1 -s BINARYEN_IMPRECISE=1 -DCXX_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1   -O3 -o CMakeFiles/cmTC_90d6b.dir/src.cxx.o -c /Users/cfarmer/p/draco-javascript/CMakeFiles/CMakeTmp/src.cxx
+WARNING:root:Assigning a non-existent settings attribute "BINARYEN_IMPRECISE"
+WARNING:root: - did you mean one of BINARYEN_PASSES, BINARYEN_METHOD, BINARYEN_MEM_MAX?
+WARNING:root: - perhaps a typo in emcc's  -s X=Y  notation?
+WARNING:root: - (see src/settings.js for valid values)
+Linking CXX executable cmTC_90d6b.js
+/usr/local/Cellar/cmake/3.8.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90d6b.dir/link.txt --verbose=1
+/Users/cfarmer/yo/emsdk/emscripten/incoming/em++  -std=c++11  -DDRACO_POINT_CLOUD_COMPRESSION_SUPPORTED -DDRACO_MESH_COMPRESSION_SUPPORTED -DDRACO_STANDARD_EDGEBREAKER_SUPPORTED -DDRACO_PREDICTIVE_EDGEBREAKER_SUPPORTED -s ALLOW_MEMORY_GROWTH=1 --memory-init-file 0 -fno-omit-frame-pointer -s MODULARIZE=1 -s EXPORT_NAME="'DracoModule'" -s NO_FILESYSTEM=1 -s ELIMINATE_DUPLICATE_FUNCTIONS=1 -s EXPORTED_RUNTIME_METHODS=[] -s PRECISE_F32=1 -s WASM=1 -s BINARYEN_IMPRECISE=1 -DCXX_FLAG_SUPPORTED -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_90d6b.dir/objects1.rsp  -o cmTC_90d6b.js 
+WARNING:root:Assigning a non-existent settings attribute "BINARYEN_IMPRECISE"
+WARNING:root: - did you mean one of BINARYEN_PASSES, BINARYEN_METHOD, BINARYEN_MEM_MAX?
+WARNING:root: - perhaps a typo in emcc's  -s X=Y  notation?
+WARNING:root: - (see src/settings.js for valid values)
+
+Source file was:
+int main() { return 0; }

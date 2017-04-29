@@ -1,0 +1,1 @@
+/Users/cfarmer/yo/emsdk/emscripten/incoming/emar rc libdraco_decoder_1_glue_js.a  @CMakeFiles/draco_decoder_1_glue_js.dir/objects1.rsp

@@ -1,0 +1,7 @@
+/Users/cfarmer/p/draco-javascript/CMakeFiles/rebuild_cache.dir
+/Users/cfarmer/p/draco-javascript/CMakeFiles/edit_cache.dir
+/Users/cfarmer/p/draco-javascript/CMakeFiles/draco_decoder.dir
+/Users/cfarmer/p/draco-javascript/CMakeFiles/draco_decoder_2_finalize_js.dir
+/Users/cfarmer/p/draco-javascript/CMakeFiles/draco_decoder_1_glue_js.dir
+/Users/cfarmer/p/draco-javascript/CMakeFiles/draco_decoder_2_version_js.dir
+/Users/cfarmer/p/draco-javascript/CMakeFiles/draco_decoder_1_prepareCallbacks_js.dir

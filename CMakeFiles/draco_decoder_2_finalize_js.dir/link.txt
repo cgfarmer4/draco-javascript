@@ -1,0 +1,1 @@
+/Users/cfarmer/yo/emsdk/emscripten/incoming/emar rc libdraco_decoder_2_finalize_js.a  @CMakeFiles/draco_decoder_2_finalize_js.dir/objects1.rsp
